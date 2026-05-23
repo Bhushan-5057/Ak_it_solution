@@ -1,0 +1,40 @@
+{
+  "motto": "Innovation, Integrity, and Excellence",
+  "mottoDetails": "We strive to push the boundaries of technology to deliver maximum value to our clients, holding ourselves to the highest standards of integrity, transparency, and technical execution.",
+  "vision": "To lead the global transition into the digital era",
+  "visionDetails": "Our vision is to empower enterprises globally by designing and deploying reliable, cutting-edge software and hardware infrastructure that solves real-world challenges.",
+  "manifesto": "The AK IT Manifesto",
+  "manifestoDetails": "We believe that technology should be an enabler, not a hurdle. We write clean, self-documenting code. We architect systems for infinite scalability. We protect user privacy with unwavering security measures. We build partnerships, not just software.",
+  "stats": [
+    { "value": "150+", "label": "Projects Completed" },
+    { "value": "50+", "label": "Enterprise Clients" },
+    { "value": "99.9%", "label": "System Uptime Guaranteed" },
+    { "value": "98%", "label": "Client Retention Rate" }
+  ],
+  "whyChooseUs": [
+    {
+      "id": "1",
+      "title": "Uncompromised Quality",
+      "description": "We employ senior software engineering talent and adhere to strict code reviews, automated testing, and CI/CD pipelines.",
+      "iconName": "Award"
+    },
+    {
+      "id": "2",
+      "title": "Scalable Architecture",
+      "description": "Our solutions are architected using serverless, microservices, and containerization patterns to support sudden load spikes.",
+      "iconName": "Layers"
+    },
+    {
+      "id": "3",
+      "title": "Security First",
+      "description": "We build security into the design phase (DevSecOps), ensuring encryption of data at rest and in transit.",
+      "iconName": "Lock"
+    },
+    {
+      "id": "4",
+      "title": "Client-Centric Philosophy",
+      "description": "We maintain open channels and conduct bi-weekly sprint demos to keep you in the loop at every stage.",
+      "iconName": "Users"
+    }
+  ]
+}

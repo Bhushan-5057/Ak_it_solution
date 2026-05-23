@@ -1,0 +1,58 @@
+[
+  {
+    "id": "s1",
+    "slug": "website-development",
+    "title": "Website Development",
+    "description": "Custom, responsive web applications engineered for performance, SEO optimization, and exceptional UX.",
+    "iconName": "Globe",
+    "benefits": [
+      "Lightweight, headless architecture using Next.js/Vite",
+      "Stunning layouts optimized for SEO and conversion rates",
+      "Pixel-perfect responsive design across mobile and desktop",
+      "Robust headless CMS integrations (Sanity, Strapi, Contentful)"
+    ],
+    "details": "We build fast, interactive, and reliable websites tailored to meet your enterprise objectives. Our engineering team utilizes cutting-edge web frameworks to deliver single-page applications (SPAs) and server-side rendered (SSR) applications that render instantly, helping you outrank competitors on search engines and convert visitors into loyal customers."
+  },
+  {
+    "id": "s2",
+    "slug": "mobile-app-development",
+    "title": "Mobile App Development",
+    "description": "High-performance iOS and Android applications built with native performance and premium look and feel.",
+    "iconName": "Smartphone",
+    "benefits": [
+      "Single-codebase efficiency using React Native or Flutter",
+      "Smooth 60fps gesture animations and transitions",
+      "Secure offline-first data synchronization",
+      "App Store & Google Play submission and maintenance support"
+    ],
+    "details": "In a mobile-first world, your customers expect native experiences that work seamlessly on their mobile devices. We develop custom mobile apps using Flutter and React Native, providing the speed and fluidity of native apps alongside the fast development lifecycle of cross-platform apps. From payment gateway integrations to real-time chats, we cover the full cycle of mobile engineering."
+  },
+  {
+    "id": "s3",
+    "slug": "saas-application-development",
+    "title": "SaaS Application Development",
+    "description": "End-to-end multi-tenant software-as-a-service application development from concept to scaling.",
+    "iconName": "Cloud",
+    "benefits": [
+      "Scalable multi-tenant databases and secure schemas",
+      "Flexible billing and subscription flows (Stripe, LemonSqueezy)",
+      "Granular RBAC (Role-Based Access Control) authentication",
+      "Insightful analytics and user behavior dashboards"
+    ],
+    "details": "Transform your software product idea into a secure, multi-tenant SaaS application. We help founders and enterprises design scalable database systems, implement complex user access levels, integrate subscription engines, and deploy cloud resources that scale dynamically with user traffic. Build your SaaS right the first time with our proven production blueprints."
+  },
+  {
+    "id": "s4",
+    "slug": "cyber-security",
+    "title": "Cyber Security",
+    "description": "Proactive protection, continuous threat monitoring, and security audits to defend your digital assets.",
+    "iconName": "Shield",
+    "benefits": [
+      "Comprehensive penetration testing and vulnerability scans",
+      "Robust IAM setup and cloud security tightening",
+      "Continuous monitoring and prompt incident response services",
+      "Security compliance audits (GDPR, SOC2, HIPAA)"
+    ],
+    "details": "Your data is your most valuable asset. We protect your application from SQL injections, cross-site scripting (XSS), server vulnerabilities, and unauthorized access. Through thorough security audits, penetration testing, and implementing strict DevSecOps protocols, we ensure your business remains compliant and secure against malicious attacks."
+  }
+]

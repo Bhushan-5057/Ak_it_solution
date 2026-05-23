@@ -1,0 +1,74 @@
+{
+  "categories": {
+    "frontend": {
+      "title": "Frontend Technologies",
+      "description": "We build fast, interactive, and responsive user interfaces that provide seamless user experiences.",
+      "items": [
+        { "name": "React.js", "imageUrl": "/images/tech/React.svg" },
+        { "name": "Next.js", "imageUrl": "/images/tech/Next.js.svg" },
+        { "name": "TypeScript", "imageUrl": "/images/tech/TypeScript.svg" },
+        { "name": "Tailwind CSS", "imageUrl": "/images/tech/Tailwind CSS.svg" },
+        { "name": "Redux Toolkit", "imageUrl": "/images/tech/Redux.svg" },
+        { "name": "HTML5", "imageUrl": "/images/tech/HTML5.svg" },
+        { "name": "CSS3", "imageUrl": "/images/tech/CSS3.svg" },
+        { "name": "Angular", "imageUrl": "/images/tech/Angular.svg" }
+      ]
+    },
+    "backend": {
+      "title": "Backend Technologies",
+      "description": "Our server architectures are built for security, high throughput, and zero downtime.",
+      "items": [
+        { "name": "Node.js", "imageUrl": "/images/tech/Node.js.svg" },
+        { "name": "Express.js", "imageUrl": "/images/tech/Express.svg" },
+        { "name": "NestJS", "imageUrl": "/images/tech/Nest.js.svg" },
+        { "name": "Golang", "imageUrl": "/images/tech/golang.svg" },
+        { "name": "Python", "imageUrl": "/images/tech/Python.svg" },
+        { "name": "GraphQL API", "imageUrl": "/images/tech/GraphQL.svg" },
+        { "name": "PHP", "imageUrl": "/images/tech/PHP.svg" },
+        { "name": "Django", "imageUrl": "/images/tech/Django.svg" }
+      ]
+    },
+    "mobile": {
+      "title": "Mobile App Development",
+      "description": "We build cross-platform mobile apps with native speed, leveraging a single shared codebase.",
+      "items": [
+        { "name": "React Native", "imageUrl": "/images/tech/React.svg" },
+        { "name": "Flutter", "imageUrl": "/images/tech/Flutter.svg" },
+        { "name": "Swift", "imageUrl": "/images/tech/Swift.svg" },
+        { "name": "Kotlin", "imageUrl": "/images/tech/Kotlin.svg" }
+      ]
+    },
+    "database": {
+      "title": "Database Solutions",
+      "description": "Relational and non-relational databases engineered for data integrity and optimized queries.",
+      "items": [
+        { "name": "PostgreSQL", "imageUrl": "/images/tech/PostgresSQL.svg" },
+        { "name": "MongoDB", "imageUrl": "/images/tech/MongoDB.svg" },
+        { "name": "Redis", "imageUrl": "/images/tech/Redis.svg" },
+        { "name": "DynamoDB", "imageUrl": "/images/tech/dynamodb.svg" },
+        { "name": "Prisma ORM", "imageUrl": "/images/tech/prisma.svg" }
+      ]
+    },
+    "ai-ml": {
+      "title": "Artificial Intelligence & ML",
+      "description": "Integrating machine learning models and AI agents to automate decisions and unlock data insights.",
+      "items": [
+        { "name": "TensorFlow", "imageUrl": "/images/tech/tensorflow.svg" },
+        { "name": "PyTorch", "imageUrl": "/images/tech/PyTorch.svg" },
+        { "name": "OpenAI APIs", "imageUrl": "/images/tech/Openai.svg" },
+        { "name": "Hugging Face", "imageUrl": "/images/tech/huggingface.svg" }
+      ]
+    },
+    "security": {
+      "title": "Security & DevSecOps",
+      "description": "Tightening system boundaries and implementing automatic vulnerability detection checks.",
+      "items": [
+        { "name": "Docker", "imageUrl": "/images/tech/Docker.svg" },
+        { "name": "Kubernetes", "imageUrl": "/images/tech/Kubernetes.svg" },
+        { "name": "AWS IAM", "imageUrl": "/images/tech/AWS.svg" },
+        { "name": "Auth0 / JWT", "imageUrl": "/images/tech/auth0.svg" },
+        { "name": "OWASP", "imageUrl": "/images/tech/owasp.png" }
+      ]
+    }
+  }
+}

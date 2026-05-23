@@ -1,0 +1,161 @@
+{
+  "home": [
+    {
+      "id": "home-1",
+      "question": "How does AK IT Solution start a new digital project?",
+      "answer": "We begin with a discovery call, map your business goals, review technical requirements, and then shape a practical roadmap for design, development, launch, and support."
+    },
+    {
+      "id": "home-2",
+      "question": "Can you work with our existing systems and tools?",
+      "answer": "Yes. We regularly modernize legacy systems, connect third-party platforms, and build integrations around CRMs, ERPs, cloud services, payment gateways, and analytics tools."
+    },
+    {
+      "id": "home-3",
+      "question": "Do you provide support after launch?",
+      "answer": "Yes. We provide maintenance, performance monitoring, security improvements, feature updates, and technical guidance after your product goes live."
+    }
+  ],
+  "services": [
+    {
+      "id": "services-1",
+      "question": "Which service should I choose for my business idea?",
+      "answer": "If you need a customer-facing website, choose website development. For mobile-first products, choose mobile app development. For subscription platforms, choose SaaS development. For audits and protection, choose cyber security."
+    },
+    {
+      "id": "services-2",
+      "question": "Can you handle design and development together?",
+      "answer": "Yes. Our process covers UI planning, responsive design, frontend and backend engineering, testing, deployment, and ongoing optimization."
+    },
+    {
+      "id": "services-3",
+      "question": "How do you keep software scalable and secure?",
+      "answer": "We use clean architecture, modern frameworks, cloud-ready deployment patterns, access control, encryption, performance testing, and security reviews throughout development."
+    }
+  ],
+  "industries": [
+    {
+      "id": "industries-1",
+      "question": "Do you customize solutions for different industries?",
+      "answer": "Yes. We adapt workflows, integrations, compliance requirements, dashboards, and user experiences for each industry instead of forcing a generic product model."
+    },
+    {
+      "id": "industries-2",
+      "question": "Can you build compliant solutions for healthcare or fintech?",
+      "answer": "Yes. We design secure software with strong authentication, encrypted data handling, audit-friendly flows, and compliance-aware architecture for sensitive domains."
+    },
+    {
+      "id": "industries-3",
+      "question": "Can you modernize older business processes?",
+      "answer": "Yes. We help replace manual workflows with digital dashboards, automated approvals, integrations, real-time reports, and scalable cloud systems."
+    }
+  ],
+  "websiteDevelopment": [
+    {
+      "id": "website-development-1",
+      "question": "What types of websites do you develop?",
+      "answer": "We develop business websites, corporate portals, landing pages, eCommerce platforms, custom web applications, and scalable enterprise solutions tailored to business goals."
+    },
+    {
+      "id": "website-development-2",
+      "question": "Will my website be mobile responsive?",
+      "answer": "Yes. Every website we build is fully responsive and optimized for desktops, tablets, and mobile devices to ensure a seamless user experience."
+    },
+    {
+      "id": "website-development-3",
+      "question": "Do you provide SEO-friendly website development?",
+      "answer": "Yes. We follow SEO best practices including optimized page structure, fast loading speed, clean code, accessibility improvements, and metadata optimization."
+    },
+    {
+      "id": "website-development-4",
+      "question": "Can you redesign or upgrade an existing website?",
+      "answer": "Yes. We modernize outdated websites with improved UI/UX, better performance, enhanced security, and scalable architecture without disrupting your business operations."
+    },
+    {
+      "id": "website-development-5",
+      "question": "Do you provide website maintenance after launch?",
+      "answer": "Yes. We provide ongoing support including security updates, bug fixes, feature enhancements, backups, performance monitoring, and technical maintenance."
+    }
+  ],
+  "mobileAppDevelopment": [
+    {
+      "id": "mobile-app-development-1",
+      "question": "Do you build apps for both Android and iOS?",
+      "answer": "Yes. We develop cross-platform and native mobile applications for Android and iOS using modern frameworks and scalable architectures."
+    },
+    {
+      "id": "mobile-app-development-2",
+      "question": "Can you integrate APIs and third-party services into mobile apps?",
+      "answer": "Yes. We integrate payment gateways, maps, authentication systems, analytics tools, cloud services, CRMs, and other third-party APIs into mobile applications."
+    },
+    {
+      "id": "mobile-app-development-3",
+      "question": "How do you ensure mobile app performance and scalability?",
+      "answer": "We use optimized code structures, efficient APIs, scalable backend systems, caching strategies, and extensive testing to ensure smooth app performance."
+    },
+    {
+      "id": "mobile-app-development-4",
+      "question": "Will my mobile app be secure?",
+      "answer": "Yes. We implement secure authentication, encrypted communication, secure APIs, role-based access control, and industry-standard security practices."
+    },
+    {
+      "id": "mobile-app-development-5",
+      "question": "Do you help publish apps on the App Store and Play Store?",
+      "answer": "Yes. We assist with app deployment, store submission guidelines, optimization, testing, and publishing for both Google Play Store and Apple App Store."
+    }
+  ],
+  "saasApplicationDevelopment": [
+    {
+      "id": "saas-development-1",
+      "question": "What is SaaS application development?",
+      "answer": "SaaS development involves building cloud-based software platforms that users can access through subscriptions without installing software locally."
+    },
+    {
+      "id": "saas-development-2",
+      "question": "Can you build scalable multi-tenant SaaS platforms?",
+      "answer": "Yes. We develop secure multi-tenant SaaS architectures with scalable infrastructure, user management, subscription handling, and role-based access systems."
+    },
+    {
+      "id": "saas-development-3",
+      "question": "Do you integrate payment and subscription systems in SaaS products?",
+      "answer": "Yes. We integrate recurring billing systems, payment gateways, invoicing tools, subscription management, and usage tracking into SaaS platforms."
+    },
+    {
+      "id": "saas-development-4",
+      "question": "How do you ensure SaaS platform reliability?",
+      "answer": "We use cloud infrastructure, monitoring systems, automated backups, scalable databases, load balancing, and performance optimization strategies."
+    },
+    {
+      "id": "saas-development-5",
+      "question": "Can you modernize or upgrade an existing SaaS product?",
+      "answer": "Yes. We improve existing SaaS applications with modern UI/UX, feature upgrades, better scalability, cloud migration, and enhanced performance."
+    }
+  ],
+  "cyberSecurity": [
+    {
+      "id": "cyber-security-1",
+      "question": "What cyber security services do you provide?",
+      "answer": "We provide security audits, vulnerability assessments, penetration testing, access control implementation, cloud security, and infrastructure protection services."
+    },
+    {
+      "id": "cyber-security-2",
+      "question": "How do you identify security vulnerabilities?",
+      "answer": "We use automated scanning tools, manual testing methods, penetration testing, code reviews, and infrastructure analysis to identify potential risks."
+    },
+    {
+      "id": "cyber-security-3",
+      "question": "Can you secure cloud infrastructure and web applications?",
+      "answer": "Yes. We secure cloud environments, APIs, databases, servers, and web applications using encryption, firewalls, monitoring systems, and access management."
+    },
+    {
+      "id": "cyber-security-4",
+      "question": "Do you help businesses prevent cyber attacks?",
+      "answer": "Yes. We implement proactive security strategies including threat monitoring, incident prevention, secure authentication, employee guidance, and system hardening."
+    },
+    {
+      "id": "cyber-security-5",
+      "question": "Do you provide ongoing cyber security monitoring and support?",
+      "answer": "Yes. We provide continuous monitoring, security updates, incident response support, vulnerability patching, and long-term protection strategies."
+    }
+  ]
+}

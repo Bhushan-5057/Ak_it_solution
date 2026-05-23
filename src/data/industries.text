@@ -1,0 +1,77 @@
+[
+  {
+    "id": "ind1",
+    "slug": "transforming-domains",
+    "title": "Transforming Domains",
+    "description": "We modernize traditional industries by introducing automated processes, custom ERP systems, and state-of-the-art software integrations.",
+    "iconName": "Activity",
+    "details": "We work closely with logistics, manufacturing, and supply chain enterprises to convert outdated manual workflows into clean, automated digital systems. By integrating IoT sensors, real-time inventory systems, and predictive software dashboards, we help traditional domains scale efficiently and reduce overhead costs.",
+    "offerings": [
+      "IoT & Logistics tracking software",
+      "Enterprise Resource Planning (ERP) integrations",
+      "Automated inventory management",
+      "Legacy modernization consulting"
+    ],
+    "imageUrl": "/images/industries-transform.jpg"
+  },
+  {
+    "id": "ind2",
+    "slug": "service-offerings",
+    "title": "Financial Tech & Services",
+    "description": "Secure, fast, and compliant fintech applications designed to build trust and scale transactional volumes.",
+    "iconName": "DollarSign",
+    "details": "Fintech requires high security, zero latency, and strict adherence to regulatory standards. We design custom payment gateways, banking apps, and digital wallets with biometric login, end-to-end data encryption, and instant transaction settlements, giving your users a frictionless payment experience.",
+    "offerings": [
+      "Secure payment gateway integrations",
+      "Biometric security systems",
+      "Decentralized ledger services",
+      "Regulatory compliance templates"
+    ],
+    "imageUrl": "/images/industries-fintech.jpg"
+  },
+  {
+    "id": "ind3",
+    "slug": "secure-scalable-solutions",
+    "title": "Healthcare & Lifesciences",
+    "description": "HIPAA-compliant software solutions ensuring safe medical record handling and seamless patient care.",
+    "iconName": "HeartPulse",
+    "details": "We develop telemedicine platforms, electronic health record (EHR) systems, and medical analytics dashboards that empower healthcare providers to deliver better patient care. Our architectures guarantee maximum data security, strict HIPAA and GDPR compliance, and real-time medical staff scheduling.",
+    "offerings": [
+      "HIPAA-compliant telemedicine panels",
+      "Secure patient-physician messaging portals",
+      "Electronic Health Record (EHR) setups",
+      "AI-driven diagnostic indicators"
+    ],
+    "imageUrl": "/images/industries-healthcare.jpg"
+  },
+  {
+    "id": "ind4",
+    "slug": "empowerment",
+    "title": "E-Commerce & Digital Retail",
+    "description": "High-converting online retail experiences built for speed, personalized customer journeys, and absolute stability during peak sale hours.",
+    "iconName": "ShoppingBag",
+    "details": "We design and scale headless commerce systems, multi-vendor marketplaces, and personalized storefronts. By utilizing next-generation frameworks, we optimize page load speeds, reducing cart abandonment and powering seamless checkout flows that integrate with your ERP, CRM, and accounting software.",
+    "offerings": [
+      "Headless commerce frontends",
+      "Multi-vendor marketplace frameworks",
+      "Live order-tracking dashboards",
+      "Automated marketing email loops"
+    ],
+    "imageUrl": "/images/industries-ecommerce.jpg"
+  },
+  {
+    "id": "ind5",
+    "slug": "future-powering",
+    "title": "Future Powering EdTech",
+    "description": "Empowering learners worldwide through custom virtual classrooms, automated grading engines, and interactive learning management systems.",
+    "iconName": "BookOpen",
+    "details": "We build engaging educational technology platforms that bridge the gap between students and teachers. From live video streaming lessons to interactive quizzes, gamified progress trackers, and detailed grading systems, our solutions support continuous learning for schools, universities, and corporate academies.",
+    "offerings": [
+      "Virtual classroom video integrations",
+      "Interactive quiz & evaluation builders",
+      "LMS (Learning Management System) structures",
+      "Gamified learning path indicators"
+    ],
+    "imageUrl": "/images/industries-edtech.jpg"
+  }
+]

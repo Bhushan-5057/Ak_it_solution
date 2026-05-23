@@ -1,0 +1,30 @@
+{
+  "address": "102, Silicon Valley Towers, IT Park, Sector 62, Noida, UP, India - 201301",
+  "email": "info@akitsolution.com",
+  "phone": "+91 120 4567890",
+  "facebook": "https://facebook.com/akitsolution",
+  "linkedin": "https://linkedin.com/company/akitsolution",
+  "instagram": "https://instagram.com/akitsolution",
+  "youtube": "https://youtube.com/c/akitsolution",
+  "responsePromise": "We review every enquiry with a senior technical consultant and respond within one business day.",
+  "quickFacts": [
+    "Free first consultation",
+    "Architecture review available",
+    "Flexible project engagement",
+    "Post-launch support planning"
+  ],
+  "process": [
+    {
+      "title": "Share Goals",
+      "description": "Tell us what you want to build, improve, secure, or automate."
+    },
+    {
+      "title": "Get Direction",
+      "description": "We outline practical technology choices, timelines, and delivery steps."
+    },
+    {
+      "title": "Start Smart",
+      "description": "Your project begins with clear scope, milestones, and communication rhythm."
+    }
+  ]
+}
