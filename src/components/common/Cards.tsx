@@ -35,7 +35,7 @@ export function FeatureCard({ title, description, iconName, index = 0 }: Feature
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="bg-card/95 border border-border/80  rounded-xl p-5 sm:p-6 lg:p-7 hover-glow group shadow-sm backdrop-blur min-h-[220px]"
+      className="bg-card/95 border border-border/80 rounded-lg p-5 sm:p-6 lg:p-7 hover-glow group shadow-sm backdrop-blur min-h-[220px]"
     >
       <div className="w-11 h-11 flex items-center justify-center rounded-xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300 mb-5 shadow-inner">
         <DynamicIcon name={iconName} className="w-5 h-5 stroke-[2]" />
@@ -65,7 +65,7 @@ export function ServiceCard({ title, description, iconName, slug, index = 0 }: S
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="bg-card/95 border border-border/80  rounded-xl p-6 hover-glow group flex flex-col justify-between h-full shadow-sm backdrop-blur"
+      className="bg-card/95 border border-border/80 rounded-lg p-6 hover-glow group flex flex-col justify-between h-full shadow-sm backdrop-blur"
     >
       <div>
         <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-secondary/5 text-secondary   group-hover:bg-secondary  group-hover:text-white  transition-all duration-300 mb-5">

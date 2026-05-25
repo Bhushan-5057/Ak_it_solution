@@ -2,27 +2,27 @@
   "hero": {
     "title": "Empowering Businesses Through Advanced Technology",
     "subtitle": "INNOVATIVE SOLUTIONS FOR DIGITAL TRANSFORMATION",
-    "description": "We deliver modern, scalable, and secure IT solutions tailored to accelerate your business growth. From custom software development to cloud migration and cyber security, we are your trusted technology partner.",
-    "ctaText": "Transform Your Business",
+    "description": "We help businesses build secure applications, resilient cloud infrastructure, and practical cyber security operations. From SOC monitoring to software delivery, AK IT Solution protects what keeps your business moving.",
+    "ctaText": "Secure Your Business",
     "ctaLink": "/contact-us"
   },
   "cards": [
     {
       "id": "1",
-      "title": "Enterprise Software Development",
-      "description": "We build scalable, high-performance web and mobile solutions to streamline operations and drive business value.",
+      "title": "Secure Software Development",
+      "description": "We build web, mobile, and SaaS platforms with secure architecture, clean UX, and reliable delivery practices.",
       "iconName": "Cpu"
     },
     {
       "id": "2",
-      "title": "Cloud & Infrastructure Solutions",
-      "description": "Secure, fast, and scalable cloud deployments to maximize availability and optimize operational costs.",
+      "title": "Cloud & Infrastructure Protection",
+      "description": "We design cloud environments, networks, IAM, and deployment pipelines with security and uptime at the center.",
       "iconName": "Cloud"
     },
     {
       "id": "3",
-      "title": "Advanced Cyber Security",
-      "description": "Comprehensive security testing, threat detection, and mitigation strategies to safeguard your intellectual property.",
+      "title": "Managed Cyber Security",
+      "description": "Threat detection, vulnerability assessment, SOC support, and incident response for enterprise environments.",
       "iconName": "Shield"
     }
   ],

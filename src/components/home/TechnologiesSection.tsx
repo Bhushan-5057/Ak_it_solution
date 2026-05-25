@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import Button from "../common/Button";
 import SectionHeading from "../common/SectionHeading";
 import { ArrowRight, Bot, Code2, Database, Server, ShieldAlert, Smartphone } from "lucide-react";

@@ -43,10 +43,12 @@ const servicesList = [
 ];
 
 const navLinks = [
+  { label: "Home", href: "/" },
   { label: "About Us", href: "/about-us" },
   { label: "Services", href: "/services", hasDropdown: true },
   { label: "Industries", href: "/industries" },
   { label: "Technologies", href: "/technologies" },
+  { label: "Blogs", href: "/blogs" },
   { label: "Contact Us", href: "/contact-us" },
 ];
 
@@ -123,7 +125,7 @@ export default function Navbar() {
               />
             </Link>
 
-            <nav className="hidden lg:flex items-center space-x-1 lg:space-x-3">
+            <nav className="hidden lg:flex items-center space-x-1 xl:space-x-2">
               {navLinks.map((link) => {
                 if (link.hasDropdown) {
                   return (

@@ -85,3 +85,21 @@ export interface ContactData {
     description: string;
   }[];
 }
+
+export interface BlogPost {
+  id: string;
+  slug: string;
+  title: string;
+  excerpt: string;
+  category: string;
+  readTime: string;
+  publishedAt: string;
+  author: string;
+  iconName: string;
+  tags: string[];
+  content: {
+    heading: string;
+    body: string;
+    bullets?: string[];
+  }[];
+}

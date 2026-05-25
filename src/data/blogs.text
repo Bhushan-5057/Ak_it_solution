@@ -1,0 +1,130 @@
+[
+  {
+    "id": "blog-1",
+    "slug": "cyber-security-best-practices-for-growing-businesses",
+    "title": "Cyber Security Best Practices for Growing Businesses",
+    "excerpt": "A practical checklist for protecting business systems, customer data, and day-to-day operations without adding unnecessary complexity.",
+    "category": "Security Strategy",
+    "readTime": "5 min read",
+    "publishedAt": "2026-05-10",
+    "author": "AK IT Solution Security Team",
+    "iconName": "ShieldCheck",
+    "tags": ["Security Awareness", "Risk Management", "Endpoint Protection"],
+    "content": [
+      {
+        "heading": "Start with the assets that matter most",
+        "body": "Effective security begins by identifying critical systems, sensitive data, user roles, and external access points. This helps your team focus protection efforts where business risk is highest."
+      },
+      {
+        "heading": "Build a simple operating rhythm",
+        "body": "Security works best when it becomes part of normal operations. Schedule patch reviews, access checks, backup testing, and vulnerability scans so important controls are not left to memory.",
+        "bullets": [
+          "Review privileged access every month",
+          "Patch operating systems, frameworks, and plugins quickly",
+          "Keep tested backups for critical databases and applications",
+          "Use multi-factor authentication for business tools"
+        ]
+      },
+      {
+        "heading": "Make response plans clear",
+        "body": "A short incident response plan can reduce confusion during a real event. Define who investigates alerts, who communicates with leadership, and how systems are isolated when needed."
+      }
+    ]
+  },
+  {
+    "id": "blog-2",
+    "slug": "soc-monitoring-and-threat-detection-basics",
+    "title": "SOC Monitoring and Threat Detection Basics",
+    "excerpt": "Understand how SOC monitoring, SIEM visibility, and alert triage help teams find suspicious activity before it becomes a larger incident.",
+    "category": "SOC Monitoring",
+    "readTime": "6 min read",
+    "publishedAt": "2026-04-22",
+    "author": "AK IT Solution Security Team",
+    "iconName": "Radar",
+    "tags": ["SOC", "SIEM", "Threat Detection"],
+    "content": [
+      {
+        "heading": "What SOC monitoring actually watches",
+        "body": "SOC monitoring brings signals from endpoints, cloud platforms, firewalls, identity systems, and applications into one place. The goal is to spot unusual behavior and escalate only the alerts that matter."
+      },
+      {
+        "heading": "Useful detections for most companies",
+        "body": "Every environment is different, but common detections include impossible travel logins, repeated failed authentication, malware activity, unusual admin changes, and unexpected data movement.",
+        "bullets": [
+          "Identity and access anomalies",
+          "Endpoint malware or suspicious process behavior",
+          "Cloud configuration changes",
+          "Firewall and network traffic spikes"
+        ]
+      },
+      {
+        "heading": "Keep alerts actionable",
+        "body": "A reliable detection program avoids noise. Alerts should include business context, affected users, severity, recommended next steps, and ownership for follow-up."
+      }
+    ]
+  },
+  {
+    "id": "blog-3",
+    "slug": "cloud-security-checklist-for-modern-applications",
+    "title": "Cloud Security Checklist for Modern Applications",
+    "excerpt": "Key cloud security controls for applications, APIs, databases, deployment pipelines, and identity management.",
+    "category": "Cloud Security",
+    "readTime": "5 min read",
+    "publishedAt": "2026-03-28",
+    "author": "AK IT Solution Cloud Security Team",
+    "iconName": "CloudCog",
+    "tags": ["Cloud Security", "IAM", "Infrastructure Protection"],
+    "content": [
+      {
+        "heading": "Treat identity as the first security boundary",
+        "body": "Strong identity controls reduce the chance of accidental exposure and account misuse. Use least-privilege access, separate production permissions, and monitor administrative actions."
+      },
+      {
+        "heading": "Protect data and deployment paths",
+        "body": "Modern applications depend on APIs, object storage, databases, CI/CD pipelines, and third-party services. Each path should have clear permissions, encryption, logging, and rollback options.",
+        "bullets": [
+          "Enable encryption for data at rest and in transit",
+          "Restrict database access to approved services",
+          "Scan dependencies and container images",
+          "Store secrets outside source code"
+        ]
+      },
+      {
+        "heading": "Review configurations regularly",
+        "body": "Cloud environments change quickly. Regular configuration reviews help catch open storage buckets, over-permissive roles, unused keys, and risky network rules."
+      }
+    ]
+  },
+  {
+    "id": "blog-4",
+    "slug": "penetration-testing-vs-vulnerability-assessment",
+    "title": "Penetration Testing vs Vulnerability Assessment",
+    "excerpt": "Learn when to use vulnerability assessment, when to run penetration testing, and how both support better risk decisions.",
+    "category": "Security Testing",
+    "readTime": "4 min read",
+    "publishedAt": "2026-02-18",
+    "author": "AK IT Solution Security Team",
+    "iconName": "SearchCheck",
+    "tags": ["Penetration Testing", "Vulnerability Assessment", "Compliance"],
+    "content": [
+      {
+        "heading": "Vulnerability assessments find known weaknesses",
+        "body": "A vulnerability assessment identifies missing patches, exposed services, weak configurations, and known software risks. It is useful for regular hygiene and compliance support."
+      },
+      {
+        "heading": "Penetration tests validate real-world risk",
+        "body": "Penetration testing goes deeper by attempting to exploit weaknesses in a controlled way. This helps teams understand impact, attack paths, and remediation priority.",
+        "bullets": [
+          "Use assessments for frequent visibility",
+          "Use penetration testing before major launches or audits",
+          "Track remediation owners and due dates",
+          "Retest critical findings after fixes"
+        ]
+      },
+      {
+        "heading": "Both should produce clear business actions",
+        "body": "The best security testing outputs are not just technical lists. They explain severity, impact, recommended fixes, and the sequence that reduces risk fastest."
+      }
+    ]
+  }
+]

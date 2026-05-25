@@ -1,32 +1,17 @@
 import type { Metadata } from "next";
-import { Outfit, Inter } from "next/font/google";
 import "./globals.css";
 import AOSInit from "@/components/AOSInit";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/common/Footer";
 import PageLoader from "@/components/common/PageLoader";
 
-const outfit = Outfit({
-  variable: "--font-outfit",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  display: "swap",
-});
-
 export const metadata: Metadata = {
   title: {
     template: "%s | AK IT Solution",
-    default: "AK IT Solution - Enterprise Tech Consulting & Software Development",
+    default: "AK IT Solution - Cyber Security & Enterprise IT Solutions",
   },
   description:
-    "AK IT Solution is a premier software engineering agency. We build scalable website development, mobile apps, SaaS, and cyber security architectures.",
+    "AK IT Solution delivers cyber security, SOC monitoring, cloud protection, secure software development, and enterprise IT solutions.",
   metadataBase: new URL("https://akitsolution.com"),
   icons: {
     icon: [
@@ -48,10 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${outfit.variable} ${inter.variable} h-full antialiased`}
-    >
+    <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col bg-background text-foreground transition-colors duration-300">
         <PageLoader />
         <AOSInit />

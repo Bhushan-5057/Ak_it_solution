@@ -12,6 +12,7 @@ export default function Footer() {
     { label: "Services", href: "/services" },
     { label: "Industries", href: "/industries" },
     { label: "Technologies", href: "/technologies" },
+    { label: "Blogs", href: "/blogs" },
     { label: "Contact Us", href: "/contact-us" },
   ];
 
@@ -45,7 +46,7 @@ export default function Footer() {
               />
             </Link>
             <p className="text-slate-200/85 text-sm leading-relaxed max-w-sm">
-              We design, build, and deploy premium IT solutions that scale your business.
+              We design secure software, cloud infrastructure, and cyber security programs for growing enterprises.
             </p>
             <div className="space-y-3">
               <a
@@ -85,7 +86,7 @@ export default function Footer() {
 
           <div>
             <h3 className="text-sm font-extrabold uppercase tracking-[0.18em] text-cyan-200 mb-5">
-              IT Services
+              Core Services
             </h3>
             <ul className="space-y-3">
               {servicesLinks.map((link) => (
@@ -103,11 +104,17 @@ export default function Footer() {
 
           <div>
             <h3 className="text-sm font-extrabold uppercase tracking-[0.18em] text-cyan-200 mb-5">
-              Follow Us
+              Stay Connected
             </h3>
             <p className="text-slate-200/80 text-sm mb-6">
-              Stay connected with our latest tech insights and updates.
+              Follow our team and read practical security guidance for modern digital operations.
             </p>
+            <Link
+              href="/blogs"
+              className="mb-6 inline-flex rounded-lg border border-white/15 bg-white/10 px-4 py-2 text-sm font-bold text-white transition-all hover:-translate-y-0.5 hover:bg-primary"
+            >
+              Read Blogs
+            </Link>
             <div className="flex space-x-4">
               {socialLinks.map((social) => {
                 const Icon = social.icon;

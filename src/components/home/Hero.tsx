@@ -6,6 +6,7 @@ import Button from "../common/Button";
 import {
   ArrowRight,
   PhoneCall,
+  ShieldCheck,
 } from "lucide-react";
 import { HeroData } from "@/types";
 
@@ -87,11 +88,11 @@ export default function Hero({ data }: HeroProps) {
 
   const titles = useMemo(
     () => [
-      "Modern",
+      "Secure",
       "Scalable",
-      "Powerful",
+      "Resilient",
       "Reliable",
-      "Intelligent",
+      "Modern",
     ],
     []
   );
@@ -120,7 +121,7 @@ export default function Hero({ data }: HeroProps) {
   };
 
   return (
-    <section className="relative min-h-[660px] lg:min-h-[720px] xl:min-h-[760px] w-full overflow-hidden flex items-center justify-center bg-[linear-gradient(135deg,#f7fbff_0%,#eef6ff_45%,#ffffff_100%)]  pt-24 pb-12">
+    <section className="relative min-h-[680px] lg:min-h-[720px] xl:min-h-[760px] w-full overflow-hidden flex items-center justify-center bg-[linear-gradient(135deg,#f7fbff_0%,#eef6ff_45%,#ffffff_100%)] pt-28 pb-16">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/[0.14] via-transparent to-secondary/[0.10] blur-3xl  " />
 
       <div className="absolute inset-0 overflow-hidden">
@@ -138,7 +139,7 @@ export default function Hero({ data }: HeroProps) {
           width={500}
           height={120}
           rotate={-15}
-          gradient="from-rose-400/20 "
+          gradient="from-secondary/12 "
           className="right-[-35%] top-[72%] sm:right-[-18%] md:right-[0%] md:top-[75%]"
         />
 
@@ -153,15 +154,20 @@ export default function Hero({ data }: HeroProps) {
       </div>
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
-        <div className="max-w-4xl mx-auto flex flex-col items-center gap-7">
+        <div className="max-w-5xl mx-auto flex flex-col items-center gap-7">
           <motion.div
             custom={1}
             variants={fadeUpVariants}
             initial="hidden"
             animate="visible"
-            className="space-y-5"
+            className="space-y-6"
           >
-            <h1 className="font-black tracking-tight leading-[1.05] text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.2rem] text-slate-900 ">
+            <span className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-white/80 px-4 py-2 text-xs font-extrabold uppercase tracking-widest text-primary shadow-sm backdrop-blur">
+              <ShieldCheck className="h-4 w-4" />
+              Cyber Security & IT Solutions
+            </span>
+
+            <h1 className="font-black tracking-tight leading-[1.05] text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.1rem] text-slate-900 ">
               <span className="inline-flex flex-wrap justify-center items-center gap-x-4">
                 <span>Building</span>
 
@@ -169,7 +175,7 @@ export default function Hero({ data }: HeroProps) {
                   {titles.map((title, index) => (
                     <motion.span
                       key={index}
-                      className="absolute left-0 top-0 whitespace-nowrap bg-gradient-to-r from-primary via-blue-500 to-cyan-500 bg-clip-text text-transparent"
+                      className="absolute left-0 top-0 whitespace-nowrap bg-gradient-to-r from-primary via-primary to-secondary bg-clip-text text-transparent"
                       initial={{ opacity: 0, y: "100%" }}
                       animate={
                         titleNumber === index
@@ -197,7 +203,7 @@ export default function Hero({ data }: HeroProps) {
               </span>
 
               <span className="block">
-                Digital Experiences
+                Digital Infrastructure
               </span>
             </h1>
 
@@ -206,7 +212,7 @@ export default function Hero({ data }: HeroProps) {
               variants={fadeUpVariants}
               initial="hidden"
               animate="visible"
-              className="mx-auto max-w-2xl text-sm sm:text-base md:text-lg leading-7 sm:leading-8 text-slate-600  font-medium"
+              className="mx-auto max-w-3xl text-sm sm:text-base md:text-lg leading-7 sm:leading-8 text-slate-600 font-medium"
             >
               {data.description}
             </motion.p>
@@ -240,6 +246,24 @@ export default function Hero({ data }: HeroProps) {
 
               <PhoneCall className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:rotate-12" />
             </Button>
+          </motion.div>
+
+          <motion.div
+            custom={4}
+            variants={fadeUpVariants}
+            initial="hidden"
+            animate="visible"
+            className="grid w-full max-w-3xl grid-cols-1 gap-3 pt-2 text-left sm:grid-cols-3"
+          >
+            {["SOC-ready monitoring", "Secure cloud architecture", "Incident response planning"].map((item) => (
+              <div
+                key={item}
+                className="rounded-lg border border-primary/15 bg-white/75 px-4 py-3 text-sm font-semibold text-foreground shadow-sm backdrop-blur"
+              >
+                <span className="mr-2 inline-block h-2 w-2 rounded-full bg-primary" />
+                {item}
+              </div>
+            ))}
           </motion.div>
         </div>
       </div>
